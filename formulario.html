@@ -11,7 +11,7 @@
 
 <body>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <a class="navbar-brand disabled text-muted" href="formulario.html">Formulario de adopcion</a>
+        <a class="navbar-brand" href="index.html">Principal</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -19,10 +19,13 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Principal</a>
+                    <a class="nav-link" href="interno.html">Lista y grafico</a>
+                </li>
+                <li class="nav-item disabled text-muted">
+                    <a class="nav-link" href="formulario.html">Formulario de adopcion</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="interno.html">Lista y grafico</a>
+                    <a class="nav-link" href="adivinanza.html">Adivinanza</a>
                 </li>
             </ul>
         </div>
@@ -43,17 +46,18 @@
             <div class="form-group">
                 <label for="uname">Nombre:</label>
                 <input type="text" class="form-control" id="uname" placeholder="Ingrese Nombre" name="uname" required>
-                
+
             </div>
             <div class="form-group">
                 <label for="uname">Apellido:</label>
                 <input type="text" class="form-control" id="uname" placeholder="Ingrese Apellido" name="uname" required>
-                
+
             </div>
             <div class="form-group">
                 <label for="exampleInputEmail1">Direccion de correo:</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Correo" name="pswd" required>
-                
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Ingrese Correo"
+                    name="pswd" required>
+
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
@@ -61,7 +65,7 @@
                     <div class="invalid-feedback">Debe marcar esta casilla para continuar</div>
                 </label>
             </div>
-            
+
             <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
     </div>
