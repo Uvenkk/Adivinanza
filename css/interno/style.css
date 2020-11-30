@@ -1,0 +1,26 @@
+h1,h2{
+    font-size: 1.5vw;
+    color: black;
+    font-weight: lighter;
+    background-color: white; 
+    display: table;
+    padding:5px;
+}
+
+.tab{
+    width:  200px;
+    height: 200px;
+    
+}
+
+th, td{
+    padding: 1px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+img{
+    margin-left: 7.5%;
+    width:  20%;
+    height: 20%;
+}

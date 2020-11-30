@@ -1,0 +1,24 @@
+h1,h2{
+    color: black;
+    background-color: white;
+    display: table;
+    padding:5px;
+}
+
+p{
+    font-size: 1.5vw;
+    color: black;
+    font-weight: lighter;
+    background-color: white; 
+    display: table;
+    padding:5px;
+}
+
+
+img{
+    margin-left: 7.5%;
+    width:  20%;
+    height: 20%;
+    float: center;
+}
+
