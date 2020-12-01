@@ -21,7 +21,7 @@ function adivinanza() {
                 break;
 
             case 3:
-                var usuario = prompt("Ingresa tu respuesta, ultimo intento, tu respuesta en minuscula\nPista1=(Su cuerpo tiene rayas que le sirven para camuflarse) \nPista2=(Vive en Asia)");
+                var usuario = prompt("Ingresa tu respuesta, ultimo intento, tu respuesta en minuscula\nPista1=(Su cuerpo tiene rayas que le sirven para camuflarse) \nPista2=(Esta raza de felino aparece en Aladdin como la mascota de la princesa)");
                 intentos++;
                 break;
         }
